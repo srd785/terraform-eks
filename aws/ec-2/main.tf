@@ -114,8 +114,8 @@ resource "aws_instance" "lifebit" {
   }
 
 resource "aws_key_pair" "lifebit" {
-  key_name			= "lifebit"
-  public_key		= "${file("${path.module}/lifebit.pub")}"
+  key_name			= "SR786"
+  public_key		= "${file("${path.module}/SR786.pub")}"
 }
 
 
